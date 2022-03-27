@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Barreto</title>
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smokum&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smokum&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    <nav class="container"> 
+    <div class="nav-main">
+        <img src="img/icono-brand.png" alt="Jose-logo" class="nav-brand">
+        <ul class="nav-menu">
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Estudios</a></li>
+            <li><a href="#">Trabajos</a></li>
+        </ul>
+        <ul class="nav-menu-right">
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+        </ul>
+    </div>
+    </nav>
+<hr>
+    <header class="portada">    
+    </header>
+    <div class="info-perfil">
+        <div>
+            <h1>José Antonio Barreto</h1>
+            <p>32 años</p>
+            <p>Córdoba, Argentina</p>
+        </div>
+        <div>
+            <img src="img/img-portada.jpg" alt="jose-portada"> 
+            <div class="btn-editar" ><i class="fas fa-pen"></i></div>
+        </div>
+        <div>
+            <p id="acercade">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab debitis maiores nobis tenetur possimus at necessitatibus vero. Quae, velit tempore. 
+            </p>
+            <div class="btn-editar" onclick="cambiar_parrafo"><i class="fas fa-pen"></i></div>
+            <div>
+                <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display:none">
+            </div>
+        </div>
+    </div>
+    <div class="portada2">
+    </div>
+    <div class="estudios">
+        <ul>
+            <div class="btn-nuevo"><i class="fas fa-plus"></i></div>
+            <div class="btn-suprimir"><i class="fas fa-trash"></i></div>
+            <div class="btn-editar"><i class="fas fa-pen"></i></div>
+        </ul>
+        <div class="estudios-1">
+            <div>
+                <img src="img/logo-RET.png" alt="Instituto RET">
+            </div>
+            <div>
+                <h2>Instituto RET</h2>
+                <p>Técnico Superior en Emergencias Médicas</p>
+            </div>
+            <div>
+                <p>2008 - 2010</p>
+            </div>
+        </div>
+        <div class="estudios-2">
+            <div>
+                <img src="img/logo-ArgentinaPrograma.png" alt="Argentina Programa">
+            </div>
+            <div>
+                <h2>Argentina Programa</h2>
+                <p>Primera Etapa</p>
+                <p>fundamentos básicos para aprender a programar</p>
+            </div>
+            <div>
+                <p>2021</p>
+            </div>
+        </div>
+        <div class="estudios-3">
+            <div>
+                <img src="img/logo-ArgentinaPrograma.png" alt="Argentina Programa">
+            </div>
+            <div>
+                <h2>Argentina Programa</h2>
+                <p>Segunda Etapa</p>
+                <p>programador web full stack junior</p>
+            </div>
+            <div>
+                <p>Actualidad</p>
+            </div>
+        </div>
+    </div>
+    <div class="portada3">
+    </div>
+    <div class="trabajo">
+        <ul>
+            <div class="btn-nuevo"><i class="fas fa-plus"></i></div>
+            <div class="btn-suprimir"><i class="fas fa-trash"></i></div>
+            <div class="btn-editar"><i class="fas fa-pen"></i></div>
+        </ul>
+        <div class="trabajo-1">
+            <div><img src="img/Logo-Ecco.jpg" alt="Logo-Ecco">
+            </div>
+            <div>
+                <h1>ECCO Emergencias</h1>
+                <p>Coordinador de Despacho</p>
+            </div>
+            <div>
+                <p>2011 a la actualidad</p>
+            </div>
+        </div>
+        <div class="trabajo-2">
+            <div><img src="img/logo-ArgentinaPrograma.png" alt="Logo-ArgentinaPrograma">
+            </div>
+            <div>
+                <h1>Portfolio</h1>
+            </div>
+            <div>
+                <p>Actualidad</p>
+            </div> 
+        </div>
+    </div>  
+    <div class="portada4">
+    </div>  
+    <div class="habilidades">
+        <ul>
+            <div class="btn-nuevo"><i class="fas fa-plus"></i></div>
+            <div class="btn-suprimir"><i class="fas fa-trash"></i></div>
+            <div class="btn-editar"><i class="fas fa-pen"></i></div>
+        </ul>
+        <div class="habilidad-1">
+            <div><img src="img/excel.png" alt="logo-excel">
+            </div>
+            <div>
+                <h1>Excel</h1>
+                <p>Nivel Avanzado</p>
+            </div>
+        </div>
+        <div class="habilidad-2">
+            <div><img src="img/logo-html.png" alt="html">
+            </div>
+            <div>
+                <h1>HTML</h1>
+                <p>Nivel Básico</p>
+            </div>
+        </div>
+        <div class="habilidad-3">
+            <div><img src="img/logo-css.png" alt="css">
+            </div>
+            <div>
+                <h1>CSS</h1>
+                <p>Nivel Básico</p>
+            </div>
+        </div>
+        <div class="habilidad-4">
+            <div><img src="img/logo-javascript.jpg" alt="javascript">
+            </div>
+            <div>
+                <h1>JavaScript</h1>
+                <p>Nivel Básico</p>
+            </div>
+        </div>
+    </div>  
+    <hr>    
+    <seccion class="social">
+            <p>Follow me</p>
+            <div class="links">
+                <a href="#"><i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#"><i class="fab fa-twitter"></i>
+                </a>
+                <a href="#"><i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#"><i class="fab fa-instagram"></i>
+                </a>
+            </div>
+    </seccion>    
+    <footer class="footer">
+        <p>José Barreto Copyright</p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js">
+    </script> 
+</body>
+</html>
