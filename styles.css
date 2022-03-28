@@ -92,8 +92,9 @@ ul {
 }
 /*perfil*/
 .info-perfil img { 
-    border-radius: 1%; 
-}
+    border-radius: 1%;
+    border: #010101 solid 3px;
+    }
 .info-perfil{ 
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
