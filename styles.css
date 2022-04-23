@@ -31,16 +31,17 @@ ul {
 }
 .btn-nuevo,
 .btn-suprimir,
-.btn-editar{
+.btn-editar,
+.ul-portada{
     cursor: pointer;
-    display: inline-block;
-    border: 0;
+    display: flex;
     font-weight: bold;
-    padding: 10px 20px;
-    background: #c0b2b2;
+    padding: 10px 30px;
+    margin:0 15px;
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     border: 1px solid #fff;
+    justify-content: right;
 }
 .info-perfil .btn-editar{
     cursor: pointer;
